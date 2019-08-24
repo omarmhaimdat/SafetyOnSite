@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		6C64F7ED23081C13009A51F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64F7EC23081C13009A51F6 /* AppDelegate.swift */; };
 		6C64F7EF23081C13009A51F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C64F7EE23081C13009A51F6 /* ViewController.swift */; };
-		6C64F7F223081C13009A51F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C64F7F023081C13009A51F6 /* Main.storyboard */; };
 		6C64F7F523081C13009A51F6 /* SafetyOnSite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C64F7F323081C13009A51F6 /* SafetyOnSite.xcdatamodeld */; };
 		6C64F7F723081C14009A51F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C64F7F623081C14009A51F6 /* Assets.xcassets */; };
 		6C64F7FA23081C14009A51F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C64F7F823081C14009A51F6 /* LaunchScreen.storyboard */; };
+		6C64F8042308256D009A51F6 /* SafetyOnSite-30-crop.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C64F8032308256D009A51F6 /* SafetyOnSite-30-crop.mlmodel */; };
+		6C7B8722230ACBE400BA627E /* SafetyOnSite-turicreate.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B8721230ACBE400BA627E /* SafetyOnSite-turicreate.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C64F7E923081C13009A51F6 /* SafetyOnSite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyOnSite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C64F7EC23081C13009A51F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C64F7EE23081C13009A51F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6C64F7F123081C13009A51F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C64F7F423081C13009A51F6 /* SafetyOnSite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafetyOnSite.xcdatamodel; sourceTree = "<group>"; };
 		6C64F7F623081C14009A51F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C64F7F923081C14009A51F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C64F7FB23081C14009A51F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C64F8032308256D009A51F6 /* SafetyOnSite-30-crop.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SafetyOnSite-30-crop.mlmodel"; sourceTree = "<group>"; };
+		6C7B8721230ACBE400BA627E /* SafetyOnSite-turicreate.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SafetyOnSite-turicreate.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				6C64F7EC23081C13009A51F6 /* AppDelegate.swift */,
 				6C64F7EE23081C13009A51F6 /* ViewController.swift */,
-				6C64F7F023081C13009A51F6 /* Main.storyboard */,
+				6C64F8032308256D009A51F6 /* SafetyOnSite-30-crop.mlmodel */,
+				6C7B8721230ACBE400BA627E /* SafetyOnSite-turicreate.mlmodel */,
 				6C64F7F623081C14009A51F6 /* Assets.xcassets */,
 				6C64F7F823081C14009A51F6 /* LaunchScreen.storyboard */,
 				6C64F7FB23081C14009A51F6 /* Info.plist */,
@@ -127,7 +130,6 @@
 			files = (
 				6C64F7FA23081C14009A51F6 /* LaunchScreen.storyboard in Resources */,
 				6C64F7F723081C14009A51F6 /* Assets.xcassets in Resources */,
-				6C64F7F223081C13009A51F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C64F8042308256D009A51F6 /* SafetyOnSite-30-crop.mlmodel in Sources */,
+				6C7B8722230ACBE400BA627E /* SafetyOnSite-turicreate.mlmodel in Sources */,
 				6C64F7EF23081C13009A51F6 /* ViewController.swift in Sources */,
 				6C64F7F523081C13009A51F6 /* SafetyOnSite.xcdatamodeld in Sources */,
 				6C64F7ED23081C13009A51F6 /* AppDelegate.swift in Sources */,
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6C64F7F023081C13009A51F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C64F7F123081C13009A51F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6C64F7F823081C14009A51F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
