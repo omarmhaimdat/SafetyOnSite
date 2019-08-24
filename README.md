@@ -47,8 +47,11 @@ MacOS, Linux & Windows:
 
 ## About me
 
-**Omar MHAIMDAT** – [Linkedin](https://www.linkedin.com/in/omarmhaimdat/) – omarmhaimdat@gmail.com
+**Omar MHAIMDAT** 
+
+* [Linkedin](https://www.linkedin.com/in/omarmhaimdat/)
+* **Email:** omarmhaimdat@gmail.com
+* [Look at the rest of my repos](https://github.com/omarmhaimdat/)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-###[Look at the rest of my repos](https://github.com/omarmhaimdat/)
